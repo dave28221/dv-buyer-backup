@@ -1,0 +1,771 @@
+@charset "UTF-8";
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+ 
+}
+#scrolly{
+    display: none;
+}
+.keep{
+    opacity: 1 !important;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.downSizeThis{
+   height: 200px;
+   background-color:#000000;
+   margin-bottom: 0px !important;
+   margin-top: 10px !important;
+ 
+
+}
+
+.colorMate{
+   background-color: black;
+   margin-top: -50px;
+   padding-bottom: 10px;
+
+
+}
+p{
+    opacity: 0 !important;
+    position:relative !important;
+    bottom: -20px !important;
+    transition: all 0.8s ease-out !important;
+    font-size: 1.2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.finalThing{
+   padding: 10px;
+   margin-top: 50px;
+
+}
+
+.lead{
+    margin-bottom: 40px;
+}
+
+.mailTo{
+    text-decoration: none;
+}
+#image-slider{
+    margin-bottom: 50px;
+    width: 55%;
+    margin: 0 auto;
+ 
+}
+
+.splide__slide{
+    border-radius: 10px;
+
+}
+.splide__slide img {
+    height: auto;
+    margin-bottom: 50px;
+
+  
+  }
+
+
+.moveUp{
+    margin-bottom: 74px;
+ 
+}
+.show {
+    opacity: 1 !important;
+    bottom: 0 !important; 
+}
+.rowAbout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jobDes{
+    padding: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.nav-link.active:hover{
+    background-color: #6e7d8d;
+    border-radius: 10px;
+}
+ul{
+    margin: 0 auto !important;
+}
+h1{
+    
+    font-size: 1rem;
+    text-align: center !important;
+    margin: 0 auto !important;
+    margin-bottom: -50px !important; padding: 5px;
+    color: #fff;
+    font-size: 2rem !important;
+    margin-bottom: 25px !important;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+.DV{
+    font-size: 1.6rem;
+    margin-bottom: -40px !important;
+}
+
+img{
+    max-width: 100%;   
+}
+
+.logo{
+    height: 300px !important;
+    background-color: #000000;
+    margin: 0 auto !important;
+    height: 300px;
+    display: block;
+    max-width: 100% !important;
+    margin-top: 100px!important;
+    
+    
+}
+
+#niceTry{
+    display: none;
+}
+
+.logoTwo{
+        height: 250px  !important;
+        max-width: 100% !important;
+        margin: 0 auto !important;
+        display: block;
+        padding-bottom: 20px;
+    
+}
+.pointBenefit{
+    color:#000000;
+    margin-top: -130px !important;
+}
+
+.sizeIncreaseNow{
+    height: 370px;
+
+}
+
+.changeTheTextBox{
+    text-align: left;
+    position: relative;
+    line-height: 35px;
+    font-size: 1.2rem;
+    margin-top: -50px;
+    margin-bottom: -350px !important;
+    
+    
+  
+}
+
+.promo{
+    float: left;
+    max-height:800px;
+    margin-right: 60px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+
+ 
+   
+
+}
+
+.pointWhat{
+    color: black;
+    margin-bottom: -200px !important;
+}
+.thankYou{
+    font-size: 2.3rem;
+    
+    
+}
+
+.comeOn{
+    padding-top: 150px;
+   
+}
+
+#submit{
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px;
+    background-color: rgb(57, 167, 201);
+    font-weight: bold;
+    
+}
+
+#submit:hover{
+    color: #ffffff;
+}
+
+.form-group-one{
+    margin-bottom: 20px;
+}
+
+
+input[type=text]{
+    width: 25%;
+    height: 35px;
+  
+}
+input[type=email]{
+    width: 25%;
+    height: 35px;
+   
+}
+
+label{
+    padding: 2px;
+}
+label[for=name]{
+    font-size: 1.2rem;
+    padding: 15px;
+
+}
+
+label[for=number]{
+    font-size: 1.2rem;
+    padding: 15px;
+    
+}
+
+label[for=email]{
+    font-size: 1.2rem;
+    padding: 15px;
+}
+
+.backForm{
+    background-color: #2b3b4b;
+    color: white;
+    margin-bottom: -16px;
+    padding-bottom: 40px;
+}
+
+.logoFour{
+    height: 300px !important;
+    background-color: #000000;
+    margin: 0 auto !important;
+    height: 300px;
+    display: block;
+    padding-bottom: 50px;
+    max-width: 100% !important;
+    margin-top: 100px !important;
+}
+
+.propOne{
+    font-size: 1.5rem;
+    
+}
+.propTwo{
+    font-size: 1.5rem;
+}
+.propThree{
+    font-size: 1.5rem;
+}
+.propFour{
+    font-size: 1.5rem;
+}
+.propFive{
+    font-size: 1.5rem;
+}
+
+#textBoxy{
+    width: 25%;
+    margin-bottom: 25px;
+}
+.stretch{
+    background-color: #000000;
+    height: 300px;
+   
+}
+
+.perth{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 3%;
+    width: 80%;
+    border: 1px solid black;
+    
+}
+
+.randomHeight{
+    height: 100px;
+
+}
+
+
+.lowerThis{
+    margin-bottom: 50px;
+}
+.Daniel{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.jumbotron{
+    padding-top: 50px;
+    text-align: center;
+    background-color:#ffffff !important;
+    padding-bottom: 25px;
+  
+}
+.your{
+    font-size: 1.4rem;
+    margin: 0 auto;
+    color: #ffffff;
+    background-color: #000000;
+    font-style: italic;
+    
+    
+}
+
+.contactUsToday{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px;
+}
+.col-4{
+    border-radius: 50px;
+}
+.enlarge{
+    padding: 5px;
+}
+.homeText{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+}
+
+hr{
+    margin-top: 35px;
+   
+}
+.container{
+    text-align: center !important;
+    
+}
+/*
+.fade-in{
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;  
+}
+*/
+
+.ourServices{
+    text-align: center;
+    font-size: 1.5rem !important;
+    margin-top: 25px !important;
+    
+}
+.secondPara{
+    margin-top: 25px !important;
+} 
+
+.colorThis{
+    background-color:#aec0d1;
+   
+}
+.footer{
+    height: 300px !important;
+    padding: 200px !important;
+   
+}
+
+.colorThisBlack{
+    background-color: #ffffff;
+
+}
+
+
+/*.point{
+    padding: 5px;
+    font-size: 2rem !important;
+    margin-bottom: 25px !important;
+    background-color: #e9ecef;
+    color: #000000;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+}*/
+.pointTwo{
+    padding: 5px;
+    font-size: 2rem !important;
+    margin-bottom: 25px !important;
+    color: #000000;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+}
+
+.pointThree{
+    padding: 5px;
+    font-size: 2rem !important;
+    margin-bottom: 25px !important;
+    background-color: #ffffff;
+    color: #000000;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+
+}
+.OPD{
+    font-size: 1.2rem;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 30px;
+    margin-bottom: 50px;
+  
+    
+}
+.fixThis{
+
+}
+.endy{
+    margin-bottom:40px;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+    color: #fff;  
+    text-align:center;
+}
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    height: 690px;
+    text-align: left;  
+}
+
+.extend{
+    border: 1px solid black;
+}
+
+.extendTwo{
+    border: 1px solid black;
+}
+
+
+.col-4 li ul{
+    margin: 15px !important;
+
+}
+.centreL{
+    line-height: 35px;
+    font-size: 1.2rem;
+    margin: 15px !important;
+
+}
+
+ol, ul {
+    padding-left: 0rem;
+}
+
+.min-vh-100 {
+    background-color: #000000;
+}
+
+.twoReal{
+    margin-top: 70px;
+    margin-bottom: 80px;
+
+}
+.twoReal img{
+    border-radius: 10px;
+}
+
+.border {
+    border: 2px solid #dee2e6!important;
+}
+
+.cont{
+    font-weight: bold;
+}
+
+.lastMes{
+    font-style: italic;
+    margin-bottom: -50px;
+ 
+}
+
+.abouttt{
+    margin-top: 50px;
+    
+}
+
+
+.changeTheText{
+    text-align: left;
+    margin-top: 50px;
+    
+}
+
+.fixThisToday {
+        position: relative;
+        padding-bottom: 450px;
+        margin-top: -120px;
+}
+    
+
+.fix{
+    background-color: #000000;
+   
+}
+
+.theBenefits{
+    text-align: left !important;
+   
+}
+
+.logoThree{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px !important;
+    max-width: 100% !important;
+    padding-bottom: 20px;
+    margin-top: -80px !important;
+
+}
+
+.contactFormSec{
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.someSpace{
+    margin-top:50px;
+}
+
+#theForm{
+   text-align: center;
+    margin: 0 auto;
+
+}
+
+#house{
+   
+}
+
+#name{
+   border: 1.5px solid black; 
+}
+
+#number{
+    border: 1.5px solid black; 
+}
+#email{
+    border: 1.5px solid black; 
+
+}
+
+/* media queries */
+
+@media screen and (max-width: 1202px) {
+    .rowAbout{
+        display: flex;
+        flex-direction: column;
+    }
+    .col-lg-4{
+        margin-bottom:50px;
+        margin-top: 20px;
+    }
+
+    input[type=text]{
+        width: 40%;
+      
+    }
+    input[type=email]{
+        width: 40%;
+       
+    }
+    
+    #textBoxy{
+        width: 40%;
+
+    }
+}
+
+
+@media screen and (max-width:1750px ){
+
+    #image-slider{
+        margin-bottom: 50px;
+        width: 80% !important;
+        margin: 0 auto;
+     
+    }
+
+
+
+}
+
+@media screen and (max-width: 1402px) {
+
+
+.centreL{
+   
+    line-height: 45px;
+    text-align: left;
+}
+
+.pointBenefit{
+    margin-top: -100px !important;
+}
+
+ .changeTheTextBox{
+     display: flex;
+     flex-direction: column;
+     margin-bottom: -400px;
+     
+ }
+
+ .promo{
+    max-height:800px;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    padding-bottom: 50px;
+
+ }
+
+}
+
+@media screen and (max-width: 1385px) {
+    .extend{
+        margin-bottom: 30px;
+    }
+    .col-4 {
+        width: 100% !important;
+        height: 100% !important;
+        margin-top:20px !important;  
+    }
+   
+    ul{
+        text-align:center;
+    }
+
+}
+
+@media screen and (max-width: 988px) {
+
+    .contactUsToday{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+}
+
+@media screen and (max-width: 628px) {
+     
+    .leftie{
+        margin-left: 15px !important;
+    }
+
+    input[type=text]{
+        width: 60%;
+      
+    }
+    input[type=email]{
+        width: 60%;
+       
+    }
+    .logoThis{
+      width: 50px !important;
+    }
+
+    #image-slider{
+        margin-bottom: 50px;
+        width: 100% !important;
+
+        margin: 0 auto;
+     
+    }
+    
+    #textBoxy{
+        width: 60%;
+
+    }
+
+}
+
+@media screen and (max-width: 450px){
+
+    .downSizeThis{
+        height: 200px !important;
+        background-color:#000000;
+        margin-bottom: 0px !important;
+        margin-top: 10px !important;
+     }
+     
+    .your{
+        font-size: 1.2rem;
+    }
+   
+
+    .logo{
+        height: 200px!important;
+        background-color: #000000;
+        margin: 0 auto !important;
+        display: block;
+        max-width: 100% !important;
+        margin-top: 100px!important;
+    }
+
+    .logoTwo{
+        height: 200px !important;
+    }
+ 
+   .logoFour{
+       height: 250px !important;
+       padding-top: 50px;
+   }
+
+   .logoThree{
+       height: 200px !important;
+       padding-bottom: 50px;
+   }
+
+    .centreL{
+        line-height: 20px;
+        text-align: left;
+    }
+
+}
